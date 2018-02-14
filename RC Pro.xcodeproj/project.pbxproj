@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97171C241C0FA15C00DEFCF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C041C0FA15C00DEFCF7 /* Default-568h@2x.png */; };
+		97171C251C0FA15C00DEFCF7 /* AppIcon120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C051C0FA15C00DEFCF7 /* AppIcon120x120.png */; };
+		97171C261C0FA15C00DEFCF7 /* MiniButton65x65.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C061C0FA15C00DEFCF7 /* MiniButton65x65.png */; };
+		97171C271C0FA15C00DEFCF7 /* START150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C071C0FA15C00DEFCF7 /* START150x150.png */; };
+		97171C281C0FA15C00DEFCF7 /* RCLogoMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C081C0FA15C00DEFCF7 /* RCLogoMain.png */; };
+		97171C291C0FA15C00DEFCF7 /* Loading640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C091C0FA15C00DEFCF7 /* Loading640x1136.png */; };
+		97171C2A1C0FA15C00DEFCF7 /* Loading640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C0A1C0FA15C00DEFCF7 /* Loading640x960.png */; };
+		97171C2B1C0FA15C00DEFCF7 /* RCLogo58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C0B1C0FA15C00DEFCF7 /* RCLogo58x58.png */; };
+		97171C2C1C0FA15C00DEFCF7 /* RCLogo80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C0C1C0FA15C00DEFCF7 /* RCLogo80x80.png */; };
+		97171C2D1C0FA15C00DEFCF7 /* RCLogo120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C0D1C0FA15C00DEFCF7 /* RCLogo120x120.png */; };
+		97171C2E1C0FA15C00DEFCF7 /* MiniButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C0E1C0FA15C00DEFCF7 /* MiniButton.png */; };
+		97171C2F1C0FA15C00DEFCF7 /* Audiowide-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97171C0F1C0FA15C00DEFCF7 /* Audiowide-Regular.ttf */; };
+		97171C301C0FA15C00DEFCF7 /* START.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C101C0FA15C00DEFCF7 /* START.png */; };
+		97171C311C0FA15C00DEFCF7 /* carbon-fiber-diagonal.png in Resources */ = {isa = PBXBuildFile; fileRef = 97171C111C0FA15C00DEFCF7 /* carbon-fiber-diagonal.png */; };
+		97171C321C0FA15C00DEFCF7 /* carbon_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97171C121C0FA15C00DEFCF7 /* carbon_background.jpg */; };
+		9756560F1C13755500DEC252 /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9756560E1C13755500DEC252 /* iPhoneStoryboard.storyboard */; };
+		975656151C13757300DEC252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975656101C13757300DEC252 /* AppDelegate.swift */; };
+		975656161C13757300DEC252 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975656111C13757300DEC252 /* MainPageViewController.swift */; };
+		975656171C13757300DEC252 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975656121C13757300DEC252 /* SecondPageViewController.swift */; };
+		975656181C13757300DEC252 /* SettingsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975656131C13757300DEC252 /* SettingsPageViewController.swift */; };
+		9756561D1C13765C00DEC252 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9756561C1C13765C00DEC252 /* Images.xcassets */; };
+		975656201C13795700DEC252 /* RelaySettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9756561F1C13795700DEC252 /* RelaySettingsViewController.swift */; };
+		975656221C13987C00DEC252 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975656211C13987C00DEC252 /* ColorWheel.swift */; };
+		9756562D1C139A7F00DEC252 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975656281C139A7F00DEC252 /* CoreGraphics.framework */; };
+		9756562E1C139A7F00DEC252 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975656291C139A7F00DEC252 /* Foundation.framework */; };
+		9756562F1C139A7F00DEC252 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9756562A1C139A7F00DEC252 /* UIKit.framework */; };
+		975656301C139A7F00DEC252 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9756562B1C139A7F00DEC252 /* CoreBluetooth.framework */; };
+		97AD66ED1C35D63B00F1C08D /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AD66EA1C35D63B00F1C08D /* iPadStoryboard.storyboard */; };
+		97AD66EE1C35D63B00F1C08D /* MainPageViewControllerIpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD66EB1C35D63B00F1C08D /* MainPageViewControllerIpad.swift */; };
+		97AD66EF1C35D63B00F1C08D /* RelaySettingsViewControllerIpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD66EC1C35D63B00F1C08D /* RelaySettingsViewControllerIpad.swift */; };
+		97AD66F31C35E8E900F1C08D /* SettingsPageViewControllerIpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AD66F21C35E8E900F1C08D /* SettingsPageViewControllerIpad.swift */; };
+		DB3EE0C71C876E85005EA7AD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3EE0C51C876E85005EA7AD /* Interface.storyboard */; };
+		DB3EE0D01C876E85005EA7AD /* RC Pro Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DB3EE0CF1C876E85005EA7AD /* RC Pro Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DB3EE0D71C876E85005EA7AD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE0D61C876E85005EA7AD /* InterfaceController.swift */; };
+		DB3EE0D91C876E85005EA7AD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE0D81C876E85005EA7AD /* ExtensionDelegate.swift */; };
+		DB3EE0DD1C876E85005EA7AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3EE0DC1C876E85005EA7AD /* Assets.xcassets */; };
+		DB3EE0E11C876E85005EA7AD /* RC Pro Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DB3EE0C31C876E85005EA7AD /* RC Pro Watch.app */; };
+		DB3EE0EB1C876F09005EA7AD /* InterfaceControllerCircuits.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3EE0EA1C876F09005EA7AD /* InterfaceControllerCircuits.swift */; };
+		DB3EE0ED1C876F55005EA7AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3EE0EC1C876F55005EA7AD /* Images.xcassets */; };
+		DB538BFE1C559E520085E89F /* SecondPageViewControllerIpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB538BFD1C559E520085E89F /* SecondPageViewControllerIpad.swift */; };
+		DB538C001C559EA40085E89F /* ThirdPageViewControllerIpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB538BFF1C559EA40085E89F /* ThirdPageViewControllerIpad.swift */; };
+		DB538C031C559EF30085E89F /* FourthPageViewControllerIpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB538C021C559EF30085E89F /* FourthPageViewControllerIpad.swift */; };
+		DBB9440A1C4C43F50024C435 /* FourthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB944091C4C43F50024C435 /* FourthPageViewController.swift */; };
+		DBB9440C1C4C44200024C435 /* FifthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9440B1C4C44200024C435 /* FifthPageViewController.swift */; };
+		DBB9440E1C4C44350024C435 /* RC Pro in Sources */ = {isa = PBXBuildFile; fileRef = DBB9440D1C4C44350024C435 /* RC Pro */; };
+		DBB944101C4C44470024C435 /* SeventhPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9440F1C4C44470024C435 /* SeventhPageViewController.swift */; };
+		DBB944121C4C447A0024C435 /* EighthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB944111C4C447A0024C435 /* EighthPageViewController.swift */; };
+		DBB944161C4C48C80024C435 /* ThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB944151C4C48C80024C435 /* ThirdPageViewController.swift */; };
+		DBB944181C4C48D20024C435 /* SixthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB944171C4C48D20024C435 /* SixthPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97009FF51BFD36F200B3CE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97009FD81BFD36F200B3CE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97009FDF1BFD36F200B3CE1D;
+			remoteInfo = "RC Pro";
+		};
+		9700A0001BFD36F200B3CE1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97009FD81BFD36F200B3CE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97009FDF1BFD36F200B3CE1D;
+			remoteInfo = "RC Pro";
+		};
+		DB3EE0D11C876E85005EA7AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97009FD81BFD36F200B3CE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3EE0CE1C876E85005EA7AD;
+			remoteInfo = "RC Pro Watch Extension";
+		};
+		DB3EE0DF1C876E85005EA7AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97009FD81BFD36F200B3CE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3EE0C21C876E85005EA7AD;
+			remoteInfo = "RC Pro Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB396C891C84C98A00E26F6C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3EE0E51C876E85005EA7AD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DB3EE0D01C876E85005EA7AD /* RC Pro Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3EE0E91C876E85005EA7AD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DB3EE0E11C876E85005EA7AD /* RC Pro Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		97009FE01BFD36F200B3CE1D /* RC Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RC Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97009FF41BFD36F200B3CE1D /* RC ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RC ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97009FFF1BFD36F200B3CE1D /* RC ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RC ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97171BE11C0F9CBF00DEFCF7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		97171BE31C0F9D0800DEFCF7 /* RideController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RideController.entitlements; sourceTree = SOURCE_ROOT; };
+		97171C041C0FA15C00DEFCF7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		97171C051C0FA15C00DEFCF7 /* AppIcon120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon120x120.png; sourceTree = "<group>"; };
+		97171C061C0FA15C00DEFCF7 /* MiniButton65x65.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MiniButton65x65.png; sourceTree = "<group>"; };
+		97171C071C0FA15C00DEFCF7 /* START150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = START150x150.png; sourceTree = "<group>"; };
+		97171C081C0FA15C00DEFCF7 /* RCLogoMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCLogoMain.png; sourceTree = "<group>"; };
+		97171C091C0FA15C00DEFCF7 /* Loading640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Loading640x1136.png; sourceTree = "<group>"; };
+		97171C0A1C0FA15C00DEFCF7 /* Loading640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Loading640x960.png; sourceTree = "<group>"; };
+		97171C0B1C0FA15C00DEFCF7 /* RCLogo58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCLogo58x58.png; sourceTree = "<group>"; };
+		97171C0C1C0FA15C00DEFCF7 /* RCLogo80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCLogo80x80.png; sourceTree = "<group>"; };
+		97171C0D1C0FA15C00DEFCF7 /* RCLogo120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCLogo120x120.png; sourceTree = "<group>"; };
+		97171C0E1C0FA15C00DEFCF7 /* MiniButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MiniButton.png; sourceTree = "<group>"; };
+		97171C0F1C0FA15C00DEFCF7 /* Audiowide-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Audiowide-Regular.ttf"; sourceTree = "<group>"; };
+		97171C101C0FA15C00DEFCF7 /* START.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = START.png; sourceTree = "<group>"; };
+		97171C111C0FA15C00DEFCF7 /* carbon-fiber-diagonal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carbon-fiber-diagonal.png"; sourceTree = "<group>"; };
+		97171C121C0FA15C00DEFCF7 /* carbon_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carbon_background.jpg; sourceTree = "<group>"; };
+		9756560E1C13755500DEC252 /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPhoneStoryboard.storyboard; path = "RC Pro/iPhoneStoryboard.storyboard"; sourceTree = "<group>"; };
+		975656101C13757300DEC252 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "RC Pro/AppDelegate.swift"; sourceTree = "<group>"; };
+		975656111C13757300DEC252 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPageViewController.swift; path = "RC Pro/MainPageViewController.swift"; sourceTree = "<group>"; };
+		975656121C13757300DEC252 /* SecondPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondPageViewController.swift; path = "RC Pro/SecondPageViewController.swift"; sourceTree = "<group>"; };
+		975656131C13757300DEC252 /* SettingsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsPageViewController.swift; path = "RC Pro/SettingsPageViewController.swift"; sourceTree = "<group>"; };
+		9756561C1C13765C00DEC252 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "RC Pro/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		9756561F1C13795700DEC252 /* RelaySettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RelaySettingsViewController.swift; path = "RC Pro/RelaySettingsViewController.swift"; sourceTree = "<group>"; };
+		975656211C13987C00DEC252 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		975656281C139A7F00DEC252 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = "<absolute>"; };
+		975656291C139A7F00DEC252 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		9756562A1C139A7F00DEC252 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = "<absolute>"; };
+		9756562B1C139A7F00DEC252 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = "<absolute>"; };
+		97AD66EA1C35D63B00F1C08D /* iPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPadStoryboard.storyboard; path = "RC Pro/iPadStoryboard.storyboard"; sourceTree = "<group>"; };
+		97AD66EB1C35D63B00F1C08D /* MainPageViewControllerIpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPageViewControllerIpad.swift; path = "RC Pro/MainPageViewControllerIpad.swift"; sourceTree = "<group>"; };
+		97AD66EC1C35D63B00F1C08D /* RelaySettingsViewControllerIpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RelaySettingsViewControllerIpad.swift; path = "RC Pro/RelaySettingsViewControllerIpad.swift"; sourceTree = "<group>"; };
+		97AD66F21C35E8E900F1C08D /* SettingsPageViewControllerIpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsPageViewControllerIpad.swift; path = "RC Pro/SettingsPageViewControllerIpad.swift"; sourceTree = "<group>"; };
+		DB3EE0C31C876E85005EA7AD /* RC Pro Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RC Pro Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3EE0C61C876E85005EA7AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DB3EE0CA1C876E85005EA7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3EE0CF1C876E85005EA7AD /* RC Pro Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RC Pro Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3EE0D51C876E85005EA7AD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DB3EE0D61C876E85005EA7AD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DB3EE0D81C876E85005EA7AD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DB3EE0DC1C876E85005EA7AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3EE0DE1C876E85005EA7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3EE0EA1C876F09005EA7AD /* InterfaceControllerCircuits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerCircuits.swift; sourceTree = "<group>"; };
+		DB3EE0EC1C876F55005EA7AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB538BFD1C559E520085E89F /* SecondPageViewControllerIpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondPageViewControllerIpad.swift; path = "RC Pro/SecondPageViewControllerIpad.swift"; sourceTree = "<group>"; };
+		DB538BFF1C559EA40085E89F /* ThirdPageViewControllerIpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdPageViewControllerIpad.swift; path = "RC Pro/ThirdPageViewControllerIpad.swift"; sourceTree = "<group>"; };
+		DB538C021C559EF30085E89F /* FourthPageViewControllerIpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourthPageViewControllerIpad.swift; path = "RC Pro/FourthPageViewControllerIpad.swift"; sourceTree = "<group>"; };
+		DBB944091C4C43F50024C435 /* FourthPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourthPageViewController.swift; path = "RC Pro/FourthPageViewController.swift"; sourceTree = "<group>"; };
+		DBB9440B1C4C44200024C435 /* FifthPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FifthPageViewController.swift; path = "RC Pro/FifthPageViewController.swift"; sourceTree = "<group>"; };
+		DBB9440D1C4C44350024C435 /* RC Pro */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = "RC Pro"; sourceTree = "<group>"; };
+		DBB9440F1C4C44470024C435 /* SeventhPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeventhPageViewController.swift; path = "RC Pro/SeventhPageViewController.swift"; sourceTree = "<group>"; };
+		DBB944111C4C447A0024C435 /* EighthPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EighthPageViewController.swift; path = "RC Pro/EighthPageViewController.swift"; sourceTree = "<group>"; };
+		DBB944151C4C48C80024C435 /* ThirdPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdPageViewController.swift; path = "RC Pro/ThirdPageViewController.swift"; sourceTree = "<group>"; };
+		DBB944171C4C48D20024C435 /* SixthPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SixthPageViewController.swift; path = "RC Pro/SixthPageViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97009FDD1BFD36F200B3CE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9756562D1C139A7F00DEC252 /* CoreGraphics.framework in Frameworks */,
+				9756562F1C139A7F00DEC252 /* UIKit.framework in Frameworks */,
+				975656301C139A7F00DEC252 /* CoreBluetooth.framework in Frameworks */,
+				9756562E1C139A7F00DEC252 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97009FF11BFD36F200B3CE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97009FFC1BFD36F200B3CE1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3EE0CC1C876E85005EA7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97009FD71BFD36F200B3CE1D = {
+			isa = PBXGroup;
+			children = (
+				97171BDA1C0F9B5D00DEFCF7 /* RC Pro */,
+				DB3EE0C41C876E85005EA7AD /* RC Pro Watch */,
+				DB3EE0D31C876E85005EA7AD /* RC Pro Watch Extension */,
+				97009FE11BFD36F200B3CE1D /* Products */,
+				975656281C139A7F00DEC252 /* CoreGraphics.framework */,
+				975656291C139A7F00DEC252 /* Foundation.framework */,
+				9756562A1C139A7F00DEC252 /* UIKit.framework */,
+				9756562B1C139A7F00DEC252 /* CoreBluetooth.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		97009FE11BFD36F200B3CE1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97009FE01BFD36F200B3CE1D /* RC Pro.app */,
+				97009FF41BFD36F200B3CE1D /* RC ProTests.xctest */,
+				97009FFF1BFD36F200B3CE1D /* RC ProUITests.xctest */,
+				DB3EE0C31C876E85005EA7AD /* RC Pro Watch.app */,
+				DB3EE0CF1C876E85005EA7AD /* RC Pro Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97171BDA1C0F9B5D00DEFCF7 /* RC Pro */ = {
+			isa = PBXGroup;
+			children = (
+				975656101C13757300DEC252 /* AppDelegate.swift */,
+				975656211C13987C00DEC252 /* ColorWheel.swift */,
+				9756561E1C13766800DEC252 /* iPhone */,
+				97AD66E91C35D61400F1C08D /* iPad */,
+				97171C131C0FA15C00DEFCF7 /* Resources */,
+				97171C221C0FA15C00DEFCF7 /* Supporting Files */,
+			);
+			name = "RC Pro";
+			sourceTree = "<group>";
+		};
+		97171C131C0FA15C00DEFCF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97171C041C0FA15C00DEFCF7 /* Default-568h@2x.png */,
+				97171C051C0FA15C00DEFCF7 /* AppIcon120x120.png */,
+				97171C061C0FA15C00DEFCF7 /* MiniButton65x65.png */,
+				97171C071C0FA15C00DEFCF7 /* START150x150.png */,
+				97171C081C0FA15C00DEFCF7 /* RCLogoMain.png */,
+				97171C091C0FA15C00DEFCF7 /* Loading640x1136.png */,
+				97171C0A1C0FA15C00DEFCF7 /* Loading640x960.png */,
+				97171C0B1C0FA15C00DEFCF7 /* RCLogo58x58.png */,
+				97171C0C1C0FA15C00DEFCF7 /* RCLogo80x80.png */,
+				97171C0D1C0FA15C00DEFCF7 /* RCLogo120x120.png */,
+				97171C0E1C0FA15C00DEFCF7 /* MiniButton.png */,
+				97171C0F1C0FA15C00DEFCF7 /* Audiowide-Regular.ttf */,
+				97171C101C0FA15C00DEFCF7 /* START.png */,
+				97171C111C0FA15C00DEFCF7 /* carbon-fiber-diagonal.png */,
+				97171C121C0FA15C00DEFCF7 /* carbon_background.jpg */,
+			);
+			name = Resources;
+			path = "RC Pro";
+			sourceTree = SOURCE_ROOT;
+		};
+		97171C221C0FA15C00DEFCF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9756561C1C13765C00DEC252 /* Images.xcassets */,
+				97171BE31C0F9D0800DEFCF7 /* RideController.entitlements */,
+				97171BE11C0F9CBF00DEFCF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = "../RideController-iOS/RideController";
+			sourceTree = "<group>";
+		};
+		9756561E1C13766800DEC252 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				9756560E1C13755500DEC252 /* iPhoneStoryboard.storyboard */,
+				975656111C13757300DEC252 /* MainPageViewController.swift */,
+				975656131C13757300DEC252 /* SettingsPageViewController.swift */,
+				9756561F1C13795700DEC252 /* RelaySettingsViewController.swift */,
+				975656121C13757300DEC252 /* SecondPageViewController.swift */,
+				DBB944151C4C48C80024C435 /* ThirdPageViewController.swift */,
+				DBB944091C4C43F50024C435 /* FourthPageViewController.swift */,
+				DBB9440B1C4C44200024C435 /* FifthPageViewController.swift */,
+				DBB944171C4C48D20024C435 /* SixthPageViewController.swift */,
+				DBB9440F1C4C44470024C435 /* SeventhPageViewController.swift */,
+				DBB944111C4C447A0024C435 /* EighthPageViewController.swift */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		97AD66E91C35D61400F1C08D /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				97AD66EA1C35D63B00F1C08D /* iPadStoryboard.storyboard */,
+				97AD66EB1C35D63B00F1C08D /* MainPageViewControllerIpad.swift */,
+				97AD66F21C35E8E900F1C08D /* SettingsPageViewControllerIpad.swift */,
+				97AD66EC1C35D63B00F1C08D /* RelaySettingsViewControllerIpad.swift */,
+				DB538BFD1C559E520085E89F /* SecondPageViewControllerIpad.swift */,
+				DB538BFF1C559EA40085E89F /* ThirdPageViewControllerIpad.swift */,
+				DB538C021C559EF30085E89F /* FourthPageViewControllerIpad.swift */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		DB3EE0C41C876E85005EA7AD /* RC Pro Watch */ = {
+			isa = PBXGroup;
+			children = (
+				DB3EE0EC1C876F55005EA7AD /* Images.xcassets */,
+				DB3EE0C51C876E85005EA7AD /* Interface.storyboard */,
+				DB3EE0CA1C876E85005EA7AD /* Info.plist */,
+			);
+			path = "RC Pro Watch";
+			sourceTree = "<group>";
+		};
+		DB3EE0D31C876E85005EA7AD /* RC Pro Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DB3EE0EA1C876F09005EA7AD /* InterfaceControllerCircuits.swift */,
+				DB3EE0D61C876E85005EA7AD /* InterfaceController.swift */,
+				DB3EE0D81C876E85005EA7AD /* ExtensionDelegate.swift */,
+				DB3EE0DC1C876E85005EA7AD /* Assets.xcassets */,
+				DB3EE0DE1C876E85005EA7AD /* Info.plist */,
+				DB3EE0D41C876E85005EA7AD /* Supporting Files */,
+			);
+			path = "RC Pro Watch Extension";
+			sourceTree = "<group>";
+		};
+		DB3EE0D41C876E85005EA7AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB3EE0D51C876E85005EA7AD /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97009FDF1BFD36F200B3CE1D /* RC Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9700A0081BFD36F200B3CE1D /* Build configuration list for PBXNativeTarget "RC Pro" */;
+			buildPhases = (
+				97009FDC1BFD36F200B3CE1D /* Sources */,
+				97009FDD1BFD36F200B3CE1D /* Frameworks */,
+				97009FDE1BFD36F200B3CE1D /* Resources */,
+				DB396C891C84C98A00E26F6C /* Embed App Extensions */,
+				DB3EE0E91C876E85005EA7AD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3EE0E01C876E85005EA7AD /* PBXTargetDependency */,
+			);
+			name = "RC Pro";
+			productName = "RC Pro";
+			productReference = 97009FE01BFD36F200B3CE1D /* RC Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97009FF31BFD36F200B3CE1D /* RC ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9700A00B1BFD36F200B3CE1D /* Build configuration list for PBXNativeTarget "RC ProTests" */;
+			buildPhases = (
+				97009FF01BFD36F200B3CE1D /* Sources */,
+				97009FF11BFD36F200B3CE1D /* Frameworks */,
+				97009FF21BFD36F200B3CE1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97009FF61BFD36F200B3CE1D /* PBXTargetDependency */,
+			);
+			name = "RC ProTests";
+			productName = "RC ProTests";
+			productReference = 97009FF41BFD36F200B3CE1D /* RC ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97009FFE1BFD36F200B3CE1D /* RC ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9700A00E1BFD36F200B3CE1D /* Build configuration list for PBXNativeTarget "RC ProUITests" */;
+			buildPhases = (
+				97009FFB1BFD36F200B3CE1D /* Sources */,
+				97009FFC1BFD36F200B3CE1D /* Frameworks */,
+				97009FFD1BFD36F200B3CE1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9700A0011BFD36F200B3CE1D /* PBXTargetDependency */,
+			);
+			name = "RC ProUITests";
+			productName = "RC ProUITests";
+			productReference = 97009FFF1BFD36F200B3CE1D /* RC ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DB3EE0C21C876E85005EA7AD /* RC Pro Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3EE0E61C876E85005EA7AD /* Build configuration list for PBXNativeTarget "RC Pro Watch" */;
+			buildPhases = (
+				DB3EE0C11C876E85005EA7AD /* Resources */,
+				DB3EE0E51C876E85005EA7AD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3EE0D21C876E85005EA7AD /* PBXTargetDependency */,
+			);
+			name = "RC Pro Watch";
+			productName = "RC Pro Watch";
+			productReference = DB3EE0C31C876E85005EA7AD /* RC Pro Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DB3EE0CE1C876E85005EA7AD /* RC Pro Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3EE0E21C876E85005EA7AD /* Build configuration list for PBXNativeTarget "RC Pro Watch Extension" */;
+			buildPhases = (
+				DB3EE0CB1C876E85005EA7AD /* Sources */,
+				DB3EE0CC1C876E85005EA7AD /* Frameworks */,
+				DB3EE0CD1C876E85005EA7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RC Pro Watch Extension";
+			productName = "RC Pro Watch Extension";
+			productReference = DB3EE0CF1C876E85005EA7AD /* RC Pro Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97009FD81BFD36F200B3CE1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RideController;
+				TargetAttributes = {
+					97009FDF1BFD36F200B3CE1D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 2W3B874R3F;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					97009FF31BFD36F200B3CE1D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 97009FDF1BFD36F200B3CE1D;
+					};
+					97009FFE1BFD36F200B3CE1D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 97009FDF1BFD36F200B3CE1D;
+					};
+					DB3EE0C21C876E85005EA7AD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2W3B874R3F;
+					};
+					DB3EE0CE1C876E85005EA7AD = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 97009FDB1BFD36F200B3CE1D /* Build configuration list for PBXProject "RC Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97009FD71BFD36F200B3CE1D;
+			productRefGroup = 97009FE11BFD36F200B3CE1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97009FDF1BFD36F200B3CE1D /* RC Pro */,
+				97009FF31BFD36F200B3CE1D /* RC ProTests */,
+				97009FFE1BFD36F200B3CE1D /* RC ProUITests */,
+				DB3EE0C21C876E85005EA7AD /* RC Pro Watch */,
+				DB3EE0CE1C876E85005EA7AD /* RC Pro Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97009FDE1BFD36F200B3CE1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97171C281C0FA15C00DEFCF7 /* RCLogoMain.png in Resources */,
+				97171C2B1C0FA15C00DEFCF7 /* RCLogo58x58.png in Resources */,
+				97171C2D1C0FA15C00DEFCF7 /* RCLogo120x120.png in Resources */,
+				97171C2F1C0FA15C00DEFCF7 /* Audiowide-Regular.ttf in Resources */,
+				97171C301C0FA15C00DEFCF7 /* START.png in Resources */,
+				97171C321C0FA15C00DEFCF7 /* carbon_background.jpg in Resources */,
+				97171C291C0FA15C00DEFCF7 /* Loading640x1136.png in Resources */,
+				97AD66ED1C35D63B00F1C08D /* iPadStoryboard.storyboard in Resources */,
+				97171C271C0FA15C00DEFCF7 /* START150x150.png in Resources */,
+				9756561D1C13765C00DEC252 /* Images.xcassets in Resources */,
+				9756560F1C13755500DEC252 /* iPhoneStoryboard.storyboard in Resources */,
+				97171C251C0FA15C00DEFCF7 /* AppIcon120x120.png in Resources */,
+				97171C311C0FA15C00DEFCF7 /* carbon-fiber-diagonal.png in Resources */,
+				97171C2C1C0FA15C00DEFCF7 /* RCLogo80x80.png in Resources */,
+				97171C2E1C0FA15C00DEFCF7 /* MiniButton.png in Resources */,
+				97171C2A1C0FA15C00DEFCF7 /* Loading640x960.png in Resources */,
+				97171C261C0FA15C00DEFCF7 /* MiniButton65x65.png in Resources */,
+				97171C241C0FA15C00DEFCF7 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97009FF21BFD36F200B3CE1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97009FFD1BFD36F200B3CE1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3EE0C11C876E85005EA7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3EE0C71C876E85005EA7AD /* Interface.storyboard in Resources */,
+				DB3EE0ED1C876F55005EA7AD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3EE0CD1C876E85005EA7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3EE0DD1C876E85005EA7AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97009FDC1BFD36F200B3CE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975656181C13757300DEC252 /* SettingsPageViewController.swift in Sources */,
+				DBB9440C1C4C44200024C435 /* FifthPageViewController.swift in Sources */,
+				975656171C13757300DEC252 /* SecondPageViewController.swift in Sources */,
+				DBB9440A1C4C43F50024C435 /* FourthPageViewController.swift in Sources */,
+				DBB944181C4C48D20024C435 /* SixthPageViewController.swift in Sources */,
+				97AD66EF1C35D63B00F1C08D /* RelaySettingsViewControllerIpad.swift in Sources */,
+				DBB944101C4C44470024C435 /* SeventhPageViewController.swift in Sources */,
+				DB538C031C559EF30085E89F /* FourthPageViewControllerIpad.swift in Sources */,
+				DB538C001C559EA40085E89F /* ThirdPageViewControllerIpad.swift in Sources */,
+				975656161C13757300DEC252 /* MainPageViewController.swift in Sources */,
+				DBB944121C4C447A0024C435 /* EighthPageViewController.swift in Sources */,
+				97AD66EE1C35D63B00F1C08D /* MainPageViewControllerIpad.swift in Sources */,
+				DBB944161C4C48C80024C435 /* ThirdPageViewController.swift in Sources */,
+				DB538BFE1C559E520085E89F /* SecondPageViewControllerIpad.swift in Sources */,
+				975656151C13757300DEC252 /* AppDelegate.swift in Sources */,
+				97AD66F31C35E8E900F1C08D /* SettingsPageViewControllerIpad.swift in Sources */,
+				975656221C13987C00DEC252 /* ColorWheel.swift in Sources */,
+				975656201C13795700DEC252 /* RelaySettingsViewController.swift in Sources */,
+				DBB9440E1C4C44350024C435 /* RC Pro in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97009FF01BFD36F200B3CE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97009FFB1BFD36F200B3CE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3EE0CB1C876E85005EA7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3EE0D91C876E85005EA7AD /* ExtensionDelegate.swift in Sources */,
+				DB3EE0EB1C876F09005EA7AD /* InterfaceControllerCircuits.swift in Sources */,
+				DB3EE0D71C876E85005EA7AD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97009FF61BFD36F200B3CE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97009FDF1BFD36F200B3CE1D /* RC Pro */;
+			targetProxy = 97009FF51BFD36F200B3CE1D /* PBXContainerItemProxy */;
+		};
+		9700A0011BFD36F200B3CE1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97009FDF1BFD36F200B3CE1D /* RC Pro */;
+			targetProxy = 9700A0001BFD36F200B3CE1D /* PBXContainerItemProxy */;
+		};
+		DB3EE0D21C876E85005EA7AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3EE0CE1C876E85005EA7AD /* RC Pro Watch Extension */;
+			targetProxy = DB3EE0D11C876E85005EA7AD /* PBXContainerItemProxy */;
+		};
+		DB3EE0E01C876E85005EA7AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3EE0C21C876E85005EA7AD /* RC Pro Watch */;
+			targetProxy = DB3EE0DF1C876E85005EA7AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB3EE0C51C876E85005EA7AD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3EE0C61C876E85005EA7AD /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9700A0061BFD36F200B3CE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9700A0071BFD36F200B3CE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9700A0091BFD36F200B3CE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "RC Pro/RC Pro.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RideController.RC-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9700A00A1BFD36F200B3CE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "RC Pro/RC Pro.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RideController.RC-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9700A00C1BFD36F200B3CE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RC ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RideController.RC-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RC Pro.app/RC Pro";
+			};
+			name = Debug;
+		};
+		9700A00D1BFD36F200B3CE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RC ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RideController.RC-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RC Pro.app/RC Pro";
+			};
+			name = Release;
+		};
+		9700A00F1BFD36F200B3CE1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RC ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RideController.RC-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RC Pro";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9700A0101BFD36F200B3CE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RC ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RideController.RC-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RC Pro";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		DB3EE0E31C876E85005EA7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RC Pro Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RideController.RC-Pro.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		DB3EE0E41C876E85005EA7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RC Pro Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RideController.RC-Pro.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		DB3EE0E71C876E85005EA7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = RC_Pro_Watch_Extension;
+				INFOPLIST_FILE = "RC Pro Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RideController.RC-Pro.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		DB3EE0E81C876E85005EA7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = RC_Pro_Watch_Extension;
+				INFOPLIST_FILE = "RC Pro Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RideController.RC-Pro.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97009FDB1BFD36F200B3CE1D /* Build configuration list for PBXProject "RC Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9700A0061BFD36F200B3CE1D /* Debug */,
+				9700A0071BFD36F200B3CE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9700A0081BFD36F200B3CE1D /* Build configuration list for PBXNativeTarget "RC Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9700A0091BFD36F200B3CE1D /* Debug */,
+				9700A00A1BFD36F200B3CE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9700A00B1BFD36F200B3CE1D /* Build configuration list for PBXNativeTarget "RC ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9700A00C1BFD36F200B3CE1D /* Debug */,
+				9700A00D1BFD36F200B3CE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9700A00E1BFD36F200B3CE1D /* Build configuration list for PBXNativeTarget "RC ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9700A00F1BFD36F200B3CE1D /* Debug */,
+				9700A0101BFD36F200B3CE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3EE0E21C876E85005EA7AD /* Build configuration list for PBXNativeTarget "RC Pro Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3EE0E31C876E85005EA7AD /* Debug */,
+				DB3EE0E41C876E85005EA7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB3EE0E61C876E85005EA7AD /* Build configuration list for PBXNativeTarget "RC Pro Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3EE0E71C876E85005EA7AD /* Debug */,
+				DB3EE0E81C876E85005EA7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97009FD81BFD36F200B3CE1D /* Project object */;
+}

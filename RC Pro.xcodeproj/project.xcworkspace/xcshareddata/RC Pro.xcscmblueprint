@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1D731C7ACF9F2A81CEDD23217939D6612F70AD69",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "48AE5866B058922DCC46F52297D0013228A7A133" : 0,
+    "1D731C7ACF9F2A81CEDD23217939D6612F70AD69" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "48E17FC0-7ABF-4DDA-B7FF-5623B8AC342B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "48AE5866B058922DCC46F52297D0013228A7A133" : "RideController-iOS\/",
+    "1D731C7ACF9F2A81CEDD23217939D6612F70AD69" : "RCPro-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RC Pro",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RC Pro.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ridecontroller\/rcproios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1D731C7ACF9F2A81CEDD23217939D6612F70AD69"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ridecontroller\/ridecontroller-ios-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "48AE5866B058922DCC46F52297D0013228A7A133"
+    }
+  ]
+}

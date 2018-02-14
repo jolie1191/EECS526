@@ -1,0 +1,25 @@
+{
+  "images" : [
+    {
+      "idiom" : "watch",
+      "scale" : "2x",
+      "filename" : "START150x150.png"
+    },
+    {
+      "idiom" : "watch",
+      "screenWidth" : "{130,145}",
+      "filename" : "START150x150-1.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "watch",
+      "screenWidth" : "{146,165}",
+      "filename" : "START150x150-2.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

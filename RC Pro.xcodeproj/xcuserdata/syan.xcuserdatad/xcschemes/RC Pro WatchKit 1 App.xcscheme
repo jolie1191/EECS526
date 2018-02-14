@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0720"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DB396C741C84C98A00E26F6C"
+               BuildableName = "RC Pro WatchKit 1 App.app"
+               BlueprintName = "RC Pro WatchKit 1 App"
+               ReferencedContainer = "container:RC Pro.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "97009FDF1BFD36F200B3CE1D"
+               BuildableName = "RC Pro.app"
+               BlueprintName = "RC Pro"
+               ReferencedContainer = "container:RC Pro.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DB396C671C84C98A00E26F6C"
+               BuildableName = "RC Pro WatchKit 1 Extension.appex"
+               BlueprintName = "RC Pro WatchKit 1 Extension"
+               ReferencedContainer = "container:RC Pro.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DB396C741C84C98A00E26F6C"
+            BuildableName = "RC Pro WatchKit 1 App.app"
+            BlueprintName = "RC Pro WatchKit 1 App"
+            ReferencedContainer = "container:RC Pro.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/RC Pro">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DB396C741C84C98A00E26F6C"
+            BuildableName = "RC Pro WatchKit 1 App.app"
+            BlueprintName = "RC Pro WatchKit 1 App"
+            ReferencedContainer = "container:RC Pro.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DB396C741C84C98A00E26F6C"
+            BuildableName = "RC Pro WatchKit 1 App.app"
+            BlueprintName = "RC Pro WatchKit 1 App"
+            ReferencedContainer = "container:RC Pro.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/RC Pro">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DB396C741C84C98A00E26F6C"
+            BuildableName = "RC Pro WatchKit 1 App.app"
+            BlueprintName = "RC Pro WatchKit 1 App"
+            ReferencedContainer = "container:RC Pro.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DB396C741C84C98A00E26F6C"
+            BuildableName = "RC Pro WatchKit 1 App.app"
+            BlueprintName = "RC Pro WatchKit 1 App"
+            ReferencedContainer = "container:RC Pro.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
